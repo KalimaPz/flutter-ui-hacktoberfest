@@ -16,6 +16,12 @@ class _HomePageState extends State<HomePage> {
         elevation: 0,
         title: Text("Hacktoberfest"),
       ),
+      floatingActionButton: FloatingActionButton(
+        onPressed: (){
+
+        },
+        child: Icon(Icons.navigate_next),
+      ),
     );
   }
 }
