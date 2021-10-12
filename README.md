@@ -5,4 +5,5 @@ A new Flutter project for Hacktoberfest you can create a new custom reusable wid
 ## How to Run It
 
 `flutter pub get`
+
 `flutter run`
