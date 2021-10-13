@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_hacktober/pages/demo_page.dart';
 
 class HomePage extends StatefulWidget {
   HomePage({Key? key}) : super(key: key);
@@ -18,7 +19,7 @@ class _HomePageState extends State<HomePage> {
       ),
       floatingActionButton: FloatingActionButton(
         onPressed: (){
-
+          Navigator.push(context, MaterialPageRoute(builder: (context) => DemoPage()));
         },
         child: Icon(Icons.navigate_next),
       ),
